@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome 4.7 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark" id="topNavBar">
+        <a class="navbar-brand" href="#">
+            <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+                alt="The Movie Database (TMDb)" width="154" height="20">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="filmsDropdown" data-toggle="" aria-haspopup="true"
+                        aria-expanded="false">Films</a>
+                    <div class="dropdown-menu" aria-labelledby="filmsDropdown">
+                        <a class="dropdown-item" href="#">Populaires</a>
+                        <a class="dropdown-item" href="#">Du moment</a>
+                        <a class="dropdown-item" href="#">À venir</a>
+                        <a class="dropdown-item" href="#">Les mieux notés</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="seriesDropdown" data-toggle="" aria-haspopup="true"
+                        aria-expanded="false">Séries</a>
+                    <div class="dropdown-menu" aria-labelledby="seriesDropdown">
+                        <a class="dropdown-item" href="#">Populaires</a>
+                        <a class="dropdown-item" href="#">Diffusées aujourd'hui</a>
+                        <a class="dropdown-item" href="#">En cours de diffusion</a>
+                        <a class="dropdown-item" href="#">Les mieux notées</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="artistesDropdown" data-toggle="" aria-haspopup="true"
+                        aria-expanded="false">Artistes</a>
+                    <div class="dropdown-menu" aria-labelledby="artistesDropdown">
+                        <a class="dropdown-item" href="#">Populaires</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="plusDropdown" data-toggle="" aria-haspopup="true"
+                        aria-expanded="false">Plus</a>
+                    <div class="dropdown-menu" aria-labelledby="plusDropdown">
+                        <a class="dropdown-item" href="#">Conversations</a>
+                        <a class="dropdown-item" href="#">Top contributeurs</a>
+                        <a class="dropdown-item" href="#">Assistance</a>
+                        <a class="dropdown-item" href="#">API</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mr-0 mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <span type="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+                                sagittis lacus vel augue laoreet rutrum faucibus.">
+                        <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span type="" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, laudantium quisquam? Assumenda provident, quod amet tempora ex fuga molestiae itaque. Aperiam delectus nulla recusandae est illum incidunt nostrum culpa quisquam.">
+                            <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-light p-1 mx-2" data-toggle="popover"
+                        data-placement="bottom" title="Lorem Ipsum"
+                        data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, laudantium quisquam? Assumenda provident, quod amet tempora ex fuga molestiae itaque. Aperiam delectus nulla recusandae est illum incidunt nostrum culpa quisquam.">FR
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Connexion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rejoindre TMDb</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="">
+                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container jumbotron">
+        <h2 class="">Bienvenue sur TMDb,</h2>
+        <h3 class="">Des millions de films, séries et artistes à découvrir...</h3>
+        <!-- <p class="lead">
+            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+        </p> -->
+
+        <div class="input-group input-group-lg mb-3">
+            <input type="text" class="form-control" id="searchInput"
+                placeholder="Rechercher un film, une série, un artiste..." aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <span class="btn my-sm-0 input-group-text" id="searchButton">Search</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="py-2">Populaires</h3>
+        <div class="container col-12 thumbnail-group" id="carouselContainer">
+            <div class="row text-center" id="carousel"></div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!-- Custom JS -->
+    <script src="js/fetch.js"></script>
+</body>
+</html>

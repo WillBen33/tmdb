@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover{
+    background-color: lightgray;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+#topNavBar{
+    background-color: rgba(7, 37, 65, 1)!important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgb(48, 180, 228);
+}
+
+.btn.btn-outline-primary.p-1.mx-2 {
+    color: white;
+}
+
+.fa.fa-plus.fa-2x{
+    font-size: 1.5rem;
+}
+
+.btn.btn-outline-light.p-1.mx-2 {
+    font-size: 1rem;
+}
+
+.fa.fa-search.fa-2x {
+    color: rgb(48, 180, 228);
+    font-size: 1.5rem;
+}
+
+.jumbotron {
+    /* padding: 5rem;
+    min-height: 400px; */
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+#searchInput,
+#searchButton{
+    border-radius: 50px;
+}
+
+#searchInput{
+    /* margin-right: -10%; */
+}
+
+#searchButton{
+    /* margin-left: -10%; */
+}
+
+.btn.my-sm-0.input-group-text{
+    color: white;
+    background: linear-gradient(to right, rgba(36, 207, 178, 1) 0%, rgba(48, 180, 228, 1) 100%) !important;
+}
+
+.thumbnail-group>.row {
+    overflow-x: auto;
+    /* white-space: nowrap; */
+    flex-wrap: nowrap;
+}
+
+.thumbnail-group>.row>.col-4 {
+    display: inline-block;
+    float: none;
+}
+
+#carouselContainer {
+    padding: auto 0!important;
+}
+
+.h5.card-title{
+    overflow-wrap: break-word!important;
+}
